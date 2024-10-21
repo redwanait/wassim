@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Signika Negative", sans-serif;
+}
+
+.hero {
+    background-color:rgb(233, 233, 228);
+    height: 100vh;
+}
+
+.hero .contener .navbar {
+    padding-top: 15px;
+    margin-left:10%;
+}
+
+.link {
+    text-align: center;
+    margin-top:20px;
+    margin-right: 180px;
+    
+}
+
+.link a {
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.link a:hover {
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+}
+
+.logo {
+    margin-top: -30px;
+    text-align: left;
+    color: #000;
+}
+
+.logo span {
+    color: blueviolet;
+}
+
+.logo span:hover{
+    text-decoration:underline ;
+    
+}
+
+
+.daw {
+    text-align: right;
+    color: #000;
+    margin-right: 10%;
+    margin-top: -30px;
+    font-size: 20px;
+    
+}
+
+.daw a {
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.daw a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    border-radius: 25px;
+}
+.text {
+    margin: 10%;
+    margin-top: 15%;
+}
+
+.text h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.text h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+
+.text p {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.text a {
+    padding: px;
+    text-align: center;
+}
+
+.text .sing1 {
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.text .sing1:hover{
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.text .sing2 {
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 12px;
+    transition: 0.5s;
+    margin:7%;
+}
+
+.text .sing2:hover{
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.text img {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    top:27%;
+    margin-right: 9%;
+    border: 2px solid blueviolet;
+    border-radius: 50px 0;
+    transition: 0.5s;
+}
+
+.text img:hover{
+    border-radius: 30px;
+}
+
+.media {
+    position: absolute;
+    bottom: 0;
+    margin-left:30%;
+    margin-bottom:35px ;
+}
+
+.media a {
+    color: #000;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.media a:hover {
+    background-color: #fff;
+    font-size: 20px;
+    color: #000;
+    
+}
